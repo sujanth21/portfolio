@@ -1,0 +1,20 @@
+.personal-info {
+  margin-bottom: 30px;
+}
+
+.personal-info .line {
+  border: 1px solid #333;
+}
+
+.personal-info .content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 15px;
+}
+
+.personal-info a {
+  text-decoration: none;
+  color: #777;
+}
