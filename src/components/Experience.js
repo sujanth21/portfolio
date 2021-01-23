@@ -23,7 +23,7 @@ const Experience = ({
           {tasks.map((task) => {
             return (
               <div className='task'>
-                <span className='primary-color'>-</span> {task}
+                <span className='primary-color'>&mdash;</span> {task}
               </div>
             );
           })}

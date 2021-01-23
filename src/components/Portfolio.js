@@ -4,6 +4,10 @@ import "./Portfolio.css";
 import Header from "./Header";
 import PersonalInfo from "./PersonalInfo";
 import WorkExperience from "./WorkExperience";
+import Skills from "./Skills";
+import Education from "./Education";
+import Achievements from "./Achievements";
+import OtherActivities from "./OtherActivities";
 
 const headerData = {
   fullName: "Sujanth Sebamalaithasan",
@@ -35,7 +39,17 @@ const Portfolio = () => {
         linkedin={personalInfoData.address}
         github={personalInfoData.github}
       />
-      <WorkExperience title='Work Experience' />
+      <div className='main-content'>
+        <div className='left-content'>
+          <WorkExperience title='Work Experience' />
+        </div>
+        <div className='right-content'>
+          <Skills />
+          <Education />
+          <Achievements />
+          <OtherActivities />
+        </div>
+      </div>
     </div>
   );
 };

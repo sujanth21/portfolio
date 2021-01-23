@@ -2,44 +2,6 @@
   margin: 20px 0 30px 0;
 }
 
-.experience .title {
-  font-size: 1.8rem;
-  font-weight: 700;
-  letter-spacing: 00.1rem;
-  color: #212529;
-  line-height: 1rem;
-}
-
-.experience .company {
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: #212529;
-  letter-spacing: 0.1rem;
-}
-
-.experience .period,
-.experience .location {
-  font-size: 1.1rem;
-  font-style: italic;
-  letter-spacing: 0.1rem;
-}
-
-.experience .flex-row {
-  display: flex;
-  justify-content: space-between;
-}
-
-.experience .description {
-  font-size: 1.1rem;
-  font-style: italic;
-}
-
-.experience h4 {
-  font-size: 1.1rem;
-  font-style: italic;
-  font-weight: 700;
-}
-
 .experience .tasks {
 }
 

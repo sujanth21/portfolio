@@ -1,0 +1,10 @@
+.skill {
+  margin: 20px;
+}
+.skill-content {
+  background-color: teal;
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 8px;
+}
