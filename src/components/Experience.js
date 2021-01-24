@@ -20,9 +20,9 @@ const Experience = ({
       <div className='achievements'>
         <h4>Achievements/Tasks</h4>
         <div className='tasks'>
-          {tasks.map((task) => {
+          {tasks.map((task, index) => {
             return (
-              <div className='task'>
+              <div className='task' key={index}>
                 <span className='primary-color'>&mdash;</span> {task}
               </div>
             );

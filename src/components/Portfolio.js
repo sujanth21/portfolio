@@ -36,7 +36,7 @@ const Portfolio = () => {
         email={personalInfoData.email}
         mobile={personalInfoData.mobile}
         address={personalInfoData.address}
-        linkedin={personalInfoData.address}
+        linkedin={personalInfoData.linkedin}
         github={personalInfoData.github}
       />
       <div className='main-content'>

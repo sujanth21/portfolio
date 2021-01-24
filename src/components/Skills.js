@@ -18,8 +18,8 @@ const Skills = () => {
     <div className='skills'>
       <h2>Skills</h2>
       <div className='skills-container'>
-        {skills.map((skill) => {
-          return <Skill name={skill} />;
+        {skills.map((skill, index) => {
+          return <Skill name={skill} key={index} />;
         })}
       </div>
     </div>

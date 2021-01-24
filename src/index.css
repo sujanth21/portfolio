@@ -20,6 +20,14 @@ body {
   color: teal;
 }
 
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: teal;
+  line-height: 1.1;
+  letter-spacing: 0.1rem;
+}
+
 h2 {
   font-size: 2.6rem;
   font-weight: 700;
@@ -28,10 +36,19 @@ h2 {
   letter-spacing: 0.1rem;
 }
 
+h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
 h4 {
   font-size: 1.1rem;
   font-style: italic;
   font-weight: 700;
+}
+p {
+  font-size: 1.2rem;
+  color: #353535;
 }
 
 .flex-row {
@@ -44,7 +61,7 @@ h4 {
   font-weight: 700;
   letter-spacing: 00.1rem;
   color: #212529;
-  line-height: 1rem;
+  line-height: 2rem;
 }
 
 .company,
@@ -73,4 +90,89 @@ h4 {
 .description {
   font-size: 1.1rem;
   font-style: italic;
+}
+
+.task {
+  font-size: 1.1rem;
+  color: #353535;
+}
+
+.subjects-content {
+  font-size: 1.1rem;
+  color: #353535;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #212529;
+    line-height: 1.4rem;
+  }
+
+  .company,
+  .institute,
+  .club {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #212529;
+  }
+
+  .achievement {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+
+  .period,
+  .location {
+    font-size: 0.9rem;
+    font-style: italic;
+    letter-spacing: 0.1rem;
+  }
+
+  .description {
+    font-size: 0.8rem;
+    font-style: italic;
+  }
+
+  .task {
+    font-size: 0.8rem;
+  }
+
+  .subjects-content {
+    font-size: 0.8rem;
+    color: #353535;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2 {
+  }
 }

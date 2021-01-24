@@ -12,9 +12,9 @@ const Course = ({ title, institute, period, location, subjects }) => {
       <div className='subjects'>
         <h4>Relevant Subjects</h4>
         <div className='subjects-content'>
-          {subjects.map((subject) => {
+          {subjects.map((subject, index) => {
             return (
-              <span className='subject'>
+              <span className='subject' key={index}>
                 <span className='primary-color'>&mdash;</span> {subject}
               </span>
             );

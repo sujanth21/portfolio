@@ -21,3 +21,10 @@
   margin-left: 20px;
   padding: 20px;
 }
+
+@media (max-width: 900px) {
+  .portfolio .main-content {
+    display: flex;
+    flex-direction: column;
+  }
+}
